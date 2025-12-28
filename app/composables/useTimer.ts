@@ -44,7 +44,6 @@ export const useTimer = () => {
     }
 
     function toggle() {
-        console.debug("toggle pressed")
         running.value ? stop() : start()
     }
 
